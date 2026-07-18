@@ -1,7 +1,16 @@
+html, body{
+    font-family: 'Playfair Display', serif;
+}
+
 body{
     background-image: url(sfondo.gif);
     color: gold;
 
+}
+
+h1{
+    font-family: 'Great Vibes', cursive !important;
+    font-weight: 700;
 }
 .top {
    width: 100%;
@@ -28,10 +37,11 @@ body{
 }
 
 .center h1 {
-   position: relative;
+    position: relative;
     top: -37.2rem;
     left: 5.2rem;
     font-size: 6.8rem;
+    font-family: sans-serif !important;
 }
 
 .center .img-topo {
@@ -187,6 +197,8 @@ body{
 .modal-content p{
     font-size:1.2rem;
     line-height:1.8;
+    font-family: 'Great Vibes', cursive;
+    margin: 0;
 }
 
 .close{
